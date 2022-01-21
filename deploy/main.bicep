@@ -1,6 +1,6 @@
 param location string = resourceGroup().location
 param environmentName string = 'env-${uniqueString(resourceGroup().id)}'
-param apimName string = 'store-api-mgmt-${uniqueString(resourceGroup().id)}'
+param apimName string = 'store-api-mgmtmo-${uniqueString(resourceGroup().id)}'
 param minReplicas int = 0
 param nodeImage string = 'nginx'
 param nodePort int = 3000
